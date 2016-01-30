@@ -1,0 +1,138 @@
+@font-face{
+	font-family: 'a';
+	src:url('../fonts/FZHLK.ttf');
+}
+body{
+	font-family: 'a';
+	background-image: url('../imgs/1.jpg');
+	background-size: cover;
+}
+
+#big{
+	width:1000px;
+	height: 400px;
+	margin-top: 150px;
+	margin-left: 300px;
+}
+.small{
+	width: 70px;
+	height: 70px;
+	background-image: url('../imgs/apple.png');
+	background-size: cover;
+	float: left;
+	margin:5px 10px; 
+	font-size: 2em;
+	line-height: 70px;
+	text-align: center;
+	border-radius: 4px;
+	box-shadow: 2px 2px 5px black;
+
+}
+#jishiqi{
+	width: 100px;
+	height: 200px;
+	background-image:url('../imgs/ac0ce5cd0e981c38cec712fbc117c4487de42749a087-roJ2gH_fw658.png');
+	background-size: cover;
+	-webkit-transform: rotateZ(-45deg);
+	position: absolute;
+	border-radius: 3px;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+	line-height: 140px;
+	left: 200px;
+	top:10px;
+
+}
+#title{
+	width: 250px;
+	height: 250px;
+	background-image: url('../imgs/25126627be8ba65fea3d01922a0af2d8e7800e13bbc6-z2zSwX_fw658.png');
+	background-size: cover;
+	position: absolute;
+	font-size: 36px;
+	text-align: center;
+	line-height: 230px;
+	left: 0;
+	bottom: 0;
+}
+#start,#exit,#history{
+	width: 40px;
+	height: 40px;
+	border:3px solid white; 
+	border-radius: 50%;
+	text-align: center;
+	line-height: 40px;
+	color: #262626;
+	background: #8FCAEA;
+	position: absolute;
+	top: 20px;
+	cursor: pointer;
+}
+#start{
+	right: 20px;
+}
+#exit{
+	right: 80px;
+}
+#history{
+	right: 140px;
+}
+#jilu{
+	width: 220px;
+	height: 200px;
+	position: absolute;
+	right: 50px;
+	top: 50px;
+	background-image: url('../imgs/history.png');
+	background-size: cover;
+	font-family: '微软雅黑';
+	font-weight: bold;
+	display: none;
+}
+#tt{
+	margin-top: 80px;
+	height: 30px;
+	width: 100%;
+	text-align: center;
+
+}
+.times{
+	width: 180px;
+	padding-left: 30px; 
+}
+.times span{
+	margin-left: 30px;
+}
+#tip{
+	width: 280px;
+	height: 250px;
+	position: absolute;
+	display: none;
+	left: 500px;
+	top: 150px;
+	background-size: cover;
+	background-image: url('../imgs/02f3c5bdede72b120d95b88a9f053eb61cc220ec958e-1eAIcS_fw658.png');
+}
+#tishi{
+	width: 110px;
+	position: absolute;
+	left: 140px;
+	top: 60px;
+	text-align: center;
+}
+#button,#button1,#button2{
+	width: 100px;
+	border-radius: 50%;
+	color: red;
+	position: absolute;
+	top: 120px;
+	display:block;
+	font-size: 24px;
+	cursor: pointer;
+	left: 140px;
+	text-align: center;
+}
+#button2{
+	top: 160px;
+}
